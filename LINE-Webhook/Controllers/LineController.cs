@@ -44,7 +44,7 @@ namespace LINE_Webhook.Controllers
                     break;
                 default:
                     sm.type = Enum.GetName(typeof(MessageType), MessageType.text);
-                    sm.text = "很抱歉，我只是一隻鸚鵡機器人，目前只能回覆基本貼圖與文字訊息喔！";
+                    sm.text = "testing";
                     break;
             }
             msgs.Add(sm);
